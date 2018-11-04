@@ -1,0 +1,13 @@
+body {
+    background:url("http://www.deleteagency.com/assets/img/pattern.png");
+    background-color: black;
+    color: green;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    color: white;
+}
