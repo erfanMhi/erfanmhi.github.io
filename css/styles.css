@@ -151,7 +151,7 @@ a:hover {
 
 
 
-@media all and (max-width: 1400px) {
+@media all and (max-width: 1230px) {
 
     .nav-header > a {
         font-size: x-large;
