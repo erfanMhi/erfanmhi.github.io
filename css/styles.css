@@ -1,7 +1,7 @@
 body {
     background: url("http://www.deleteagency.com/assets/img/pattern.png");
-    background-color: black;
-    color: green;
+    background-color: white;
+    color: #0074D9;
     margin: 0px 20px 0px 20px;
 }
 
@@ -10,21 +10,26 @@ h1 {
 }
 
 a {
-    color: green;
+    color: #0074D9;
     text-decoration: none;
 }
 
 a:hover {
-    color: white;
+    /* color: white; */
+    opacity: 0.5;
 }
 
 .nav-header {
     display: flex;
     align-items: stretch;
     text-align: center;
-    background-color: rgba(126, 245, 126, 0.1);
+    background-color: white;
+    -webkit-box-shadow: 3px 22px 30px -15px rgba(153,153,153,1);
+    -moz-box-shadow: 3px 22px 30px -15px rgba(153,153,153,1);
+    box-shadow: 3px 22px 30px -15px rgba(153,153,153,1);
     list-style-type: none;
-    border-radius: 10px;
+    border-radius: 0px;
+    margin: 0px -20px 0px -20px;
 }
 
 .nav-header > a {
@@ -34,6 +39,10 @@ a:hover {
 
 .container {
     display: flex;
+}
+
+.flex-container {
+  
 }
 
 #left-container {
@@ -52,7 +61,7 @@ a:hover {
 }
 
 #right-container {
-    flex: 1;
+    flex: 2;
     /* border-style: solid; */
     /* background: url("../resources/imgs/artistic.jpg"); */
     padding: 10px 0px 10px 0px;
