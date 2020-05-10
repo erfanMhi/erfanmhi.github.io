@@ -1,7 +1,7 @@
 body {
     background: url("http://www.deleteagency.com/assets/img/pattern.png");
     background-color: white;
-    color: #0074D9;
+    color: black;
     margin: 0px 20px 0px 20px;
 }
 
@@ -33,7 +33,7 @@ a:hover {
 }
 
 .nav-header > a {
-    font-size: xx-large;
+    font-size: large;
     flex: 1;
 }
 
@@ -65,7 +65,7 @@ a:hover {
     /* border-style: solid; */
     /* background: url("../resources/imgs/artistic.jpg"); */
     padding: 10px 0px 10px 0px;
-    background-color: rgba(21, 255, 0, 0.1);
+    /* background-color: rgba(21, 255, 0, 0.1); */
     border-radius: 10px;
     /* flex-wrap: wrap;
     display: flex;
@@ -89,9 +89,9 @@ a:hover {
 
   
   .terminal_window_main {
-    -webkit-box-shadow: 59px 57px 40px -54px rgba(47, 208, 22, 0.4);
+    /* -webkit-box-shadow: 59px 57px 40px -54px rgba(47, 208, 22, 0.4);
     -moz-box-shadow: 59px 57px 40px -54px rgba(47, 208, 22, 0.4);
-    box-shadow: 59px 57px 40px -54px rgba(47, 208, 22, 0.4);
+    box-shadow: 59px 57px 40px -54px rgba(47, 208, 22, 0.4); */
     text-align: left;
     border-radius: 10px;
     margin: 0px 20px 0px 10px;
@@ -101,9 +101,9 @@ a:hover {
   .terminal_window {
     text-align: left;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.05);
+    /* background-color: rgba(0, 0, 0, 0.05); */
     padding-right: 20px;
-    color: green;
+    /* color: green; */
     font-size: 11pt;
   }
   
@@ -148,7 +148,7 @@ a:hover {
   }
   
   .progressbar > div {
-    background-color: green;
+    /* background-color: green; */
     width: 100%;
     /* Adjust with JavaScript */
     height: 20px;
