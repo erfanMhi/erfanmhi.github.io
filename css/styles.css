@@ -32,6 +32,18 @@ a:hover {
     margin: 0px -20px 0px -20px;
 }
 
+.contactme {
+  text-align: center;
+  margin-bottom: 20px;
+  /* position: fixed; */
+  /* bottom: 0;
+  width: 100%; */
+}
+
+.contactme > a {
+  margin-left: 10px;
+}
+
 .nav-header > a {
     font-size: large;
     flex: 1;
