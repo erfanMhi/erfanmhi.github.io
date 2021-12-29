@@ -69,7 +69,7 @@ a:hover {
 }
 
 
-.grid-container {
+.videos-container {
   margin-top: 20px;
   margin-bottom: 20px;
   /* display: grid; */
@@ -85,7 +85,7 @@ a:hover {
   padding: 10px;
 }
 
-.grid-container > div {
+.videos-container > div {
   /* background-color: rgba(255, 255, 255, 0.8); */
   text-align: center;
   /* margin-left: 20px;
