@@ -5,7 +5,11 @@ body {
     margin: 0px 20px 0px 20px;
     font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #727272;
+}
 
+nav, footer, div {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 h1 {
